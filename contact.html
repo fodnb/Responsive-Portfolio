@@ -1,10 +1,11 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CONTACT</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -12,41 +13,41 @@
 
 	<header>
  		
- 		<h1 id="topPage">Daniel McGhee</h1>
+ 		<h1 class="topPage" id="contactH1">Daniel McGhee</h1>
 		
-		<nav> 	
+		<nav  id="navContact"> 	
 
-			<a href="_blank">About</a>
-			<a href="_blank">Portfolio</a>
-			<a href="_blank">Contact</a>
+			<a class="navA" href="index.html">About &nbsp</a>
+			<a class="navA" href="portfolio.html">Portfolio &nbsp</a>
+			<a class="navA" href="contact.html">Contact</a>	
 
 		</nav>
 
 	</header>
 	
-	<section>
+	<div class="FormDiv">
 			
 			<div id="MainForm">
 				<h2 id="FormH2">CONTACT</h2>
 				<div id="InsideDiv">
 				<form action="mailto:Daniel.McGhee6813@gmail.com" method="post" enctype="text/plain">
 					Name:<br>
-					<input type="text" name="name"><br>
+					<input type="text" name="name" placeholder="&nbsp Ulysses S. Grant"><br>
 					Email:<br>
-					<input type="Email" name="mail"><br>
+					<input type="Email" name="mail" placeholder="&nbsp fake.email@fakemail.com"><br>
 					Comment:<br>
 					<textarea name="text" cols="55" rows="20">
 					</textarea><br>
 					
 					<!-- <input type="reset" value="Reset">	 -->
 				</form>
-				<input type="submit" value="Send">
+				<input id="submit" type="submit" value="Submit">
 				</div>
 			</div>
 
 	
 
-		<div class="connect">
+		<div class="connect" id="ConnectContact">
 			<h3> Connect with Me </h3>
 			<aside>
 				<a href="https://www.linkedin.com/in/daniel-mcghee-aa8b2b55" target="_blank">
@@ -61,9 +62,10 @@
 			</aside>				
 		</div>
 
-	</section>
+	</div>
 
 	<footer>
+
 		&copy; Copyright 2017 Daniel McGhee
 
 	</footer>

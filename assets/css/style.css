@@ -9,6 +9,7 @@ body {
 	position: relative;
 	top: -75px;
 	height: 100%;
+		background-image: url("../images/fresh_snow_@2X.png");	
 }	
 	
 #pageWrap {
@@ -110,6 +111,7 @@ a:hover {
 
 section { 
 	padding-top: 15px;
+	border-top: 3px solid black;
  }
 
 .aboutMe {
@@ -213,4 +215,129 @@ footer {
 	bottom: 0;
 	text-align: center;
 	padding: 10px;
+}
+
+
+@media screen (max-width: 979px) {
+	
+	header {
+		width: 100%;
+	}
+
+    #MainDiv {
+        width:100%;
+    }
+    .aboutMe {
+    	width:55.26%;
+    	float: left;
+    	overflow: auto;
+	}
+
+	.connect {
+	width:25.47%;
+	float: left;
+    }
+
+/*    ------------------------                     */
+
+.portfolio {
+	width:100%;
+    }
+
+
+
+#MainForm { 
+	width:100%;
+    }
+    header { 
+	width:100%;
+    }
+footer {
+	width:100%;
+}
+
+img, header, h1, h2, h3, #Ph2, p,	 #h2about, nav, section, #myPhoto, #PortTop, #insidePortfolio, #InsideDiv, aside  {
+	width: 100%;
+}
+
+@media screen (max-width: 768px) {
+
+
+	header {
+		width: 100%;
+	}
+
+    #MainDiv {
+        width:100%;
+    }
+    .aboutMe {
+    	width:55.26%;
+    	float: left;
+    	overflow: auto;
+	}
+
+	.connect {
+	width:25.47%;
+	float: left;
+    }
+
+    
+
+.portfolio {
+	width:100%;
+    }
+
+.connect {
+	width:100%;
+    }
+
+#MainForm { 
+	width:100%;
+    }
+header{ 
+	width:100%;
+    }
+footer{
+	width:100%;
+}
+
+img, header, h1, h2, h3, #Ph2, #h2about, nav, #mainDiv, section, #myPhoto, #PortTop, #insidePortfolio, #InsideDiv, aside  {
+	width: 100%;
+}
+}
+
+
+@media screen (max-width: 640px) {
+    #pagewrap {
+        width:100%;
+    }
+    .aboutMe {
+    	width:100%;
+	}
+.portfolio {
+	width:100%;
+    }
+
+.connect {
+	width:100%;
+    }
+
+#MainForm { 
+	width:100%;
+    }
+    header{ 
+	width:100%;
+    }
+footer{
+	width:100%;
+}
+
+img, header, h1, h2, h3, #Ph2, #h2about, nav, #mainDiv, section, #myPhoto, #PortTop, #insidePortfolio, #InsideDiv, aside  {
+	width: 100%;
+}
+
+header, footer{
+	position: static;
+}
+
 }

@@ -2,9 +2,10 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>	
 		
@@ -12,12 +13,12 @@
 
 	<header>
 
-		<h1 id="topPage">Daniel McGhee</h1>
+		<h1 class="topPage" id="portfolioH1">Daniel McGhee</h1>
 		
-		<nav> 	
-			<a href="_blank">About</a>
-			<a href="_blank">Portfolio</a>
-			<a href="_blank">Contact</a>
+		<nav id="portNav"> 	
+			<a class="navA" href="index.html">About &nbsp</a>
+			<a class="navA" href="portfolio.html">Portfolio &nbsp</a>
+			<a class="navA" href="contact.html">Contact</a>	
 		</nav>
 
 	</header>
@@ -27,16 +28,18 @@
 	<div class="portfolio">
 		<div id="insidePortfolio">
 		<h2 id="Ph2">Portfolio</h2>
-		<img id="myPhoto" src= "https://placehold.it/350x150" alt="Project1">
-		<img id="myPhoto" src= "https://placehold.it/350x150" alt="Project2">
-		<img id="myPhoto" src= "https://placehold.it/350x150" alt="project3">
-		<img id="myPhoto" src= "https://placehold.it/350x150" alt="project4">
-		<img id="myPhoto" src= "https://placehold.it/350x150" alt="project5">
-		<img id="myPhoto" src= "https://placehold.it/350x150" alt="project6">	
+		<div id="photoDiv">
+		<img class="myPhoto" id="ClassPhoto" src= "https://placehold.it/350x150" alt="Project1">
+		<img class="myPhoto" id="ClassPhoto" src= "https://placehold.it/350x150" alt="Project2">
+		<img class="myPhoto" id="ClassPhoto" src= "https://placehold.it/350x150" alt="project3">
+		<img class="myPhoto" id="ClassPhoto" src= "https://placehold.it/350x150" alt="project4">
+		<img class="myPhoto" id="ClassPhoto" src= "https://placehold.it/350x150" alt="project5">
+		<img class="myPhoto" id="ClassPhoto" src= "https://placehold.it/350x150" alt="project6">	
+		</div>
 		</div>
 	</div>
 	
-		<div class="connect">
+		<div class="connect" id="connect3">
 					<h3> Connect with Me </h3>
 					<aside>
 					<a href="https://www.linkedin.com/in/daniel-mcghee-aa8b2b55" target="_blank">
@@ -53,6 +56,7 @@
 
 	<footer>
 		&copy; Copyright 2017 Daniel McGhee
+	
 	</footer>
 	</div>
 </div>
